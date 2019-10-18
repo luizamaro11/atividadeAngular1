@@ -16,8 +16,8 @@ export class SomarComponent implements OnInit {
     this.valor = 0;
   }
 
-  calcula(valorRecebido: number): number{
-    return this.somar.somar(this.valor, valorRecebido);
+  calcula(valorRecebido: number){
+    this.somar.somar(this.valor, valorRecebido);
   }
 
   get pegaValor(){
